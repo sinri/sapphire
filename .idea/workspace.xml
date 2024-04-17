@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2d9cda5b-fee7-4da5-b3a0-0f92970bbda2" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/sinri/sapphire/Sapphire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/sinri/sapphire/azure/AzureOpenAIKit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/sinri/sapphire/azure/SapphireJsonSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/sinri/sapphire/azure/chat/ChatCompletionsKit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/sinri/sapphire/azure/chat/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/sinri/sapphire/azure/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/sinri/sapphire/azure/tools/AbstractTargetFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/sinri/sapphire/azure/tools/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/sinri/sapphire/boat/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/sinri/sapphire/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/sinri/sapphire/test/lab/LabAlpha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/sinri/sapphire/test/lab/LabAlphaOri.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/sinri/sapphire/test/lab/TargetFunctionA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/sinri/sapphire/test/lab/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/sinri/sapphire/test/package-info.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="package-info" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2fAXplmoAjJuHAcIbnmZrFzyBxO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.LabAlpha.executor": "Run",
+    "应用程序.LabAlphaOri.executor": "Run"
+  }
+}]]></component>
+  <component name="RunManager" selected="应用程序.LabAlpha">
+    <configuration name="LabAlpha" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.sinri.sapphire.test.lab.LabAlpha" />
+      <module name="sapphire" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.sinri.sapphire.test.lab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LabAlphaOri" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.sinri.sapphire.test.lab.LabAlphaOri" />
+      <module name="sapphire" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.sinri.sapphire.test.lab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.LabAlpha" />
+        <item itemvalue="应用程序.LabAlphaOri" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-3183f394aec4-5f3ff201" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="2d9cda5b-fee7-4da5-b3a0-0f92970bbda2" name="更改" comment="" />
+      <created>1713245040797</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713245040797</updated>
+      <workItem from="1713245042794" duration="17410000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
