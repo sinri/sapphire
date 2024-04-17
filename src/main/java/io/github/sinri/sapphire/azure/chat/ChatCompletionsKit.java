@@ -74,4 +74,5 @@ public class ChatCompletionsKit extends AzureOpenAIKit {
     public record StreamDelta(ChatRole role, @Nullable String content) {
 
     }
+
 }

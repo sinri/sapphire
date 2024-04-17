@@ -44,7 +44,7 @@ public class AzureOpenAIKit {
         return BinaryData.fromObject(jsonObject, SapphireJsonSerializer.instance);
     }
 
-    protected OpenAIAsyncClient getOpenAIAsyncClient() {
+    public OpenAIAsyncClient getOpenAIAsyncClient() {
         return openAIAsyncClient;
     }
 
