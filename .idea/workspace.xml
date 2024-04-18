@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d9cda5b-fee7-4da5-b3a0-0f92970bbda2" name="更改" comment="azure-ai-openai ✖️ DryDock(Keel with vert.x)">
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/sinri/sapphire/test/lab/LabBeta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/sinri/sapphire/boat/SapphireQuadrireme.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/sinri/sapphire/azure/AzureOpenAIKit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/sinri/sapphire/azure/AzureOpenAIKit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/sinri/sapphire/azure/chat/ChatCompletionsKit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/sinri/sapphire/azure/chat/ChatCompletionsKit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/github/sinri/sapphire/test/lab/LabAlpha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/github/sinri/sapphire/test/lab/LabAlpha.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +69,7 @@
       <recent name="io.github.sinri.sapphire.azure.tools" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.LabBeta">
+  <component name="RunManager" selected="应用程序.LabAlpha">
     <configuration name="LabAlpha" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.github.sinri.sapphire.test.lab.LabAlpha" />
       <module name="sapphire" />
@@ -112,8 +111,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.LabBeta" />
         <item itemvalue="应用程序.LabAlpha" />
+        <item itemvalue="应用程序.LabBeta" />
         <item itemvalue="应用程序.LabAlphaOri" />
       </list>
     </recent_temporary>
@@ -133,7 +132,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713245040797</updated>
-      <workItem from="1713245042794" duration="19282000" />
+      <workItem from="1713245042794" duration="23538000" />
     </task>
     <task id="LOCAL-00001" summary="azure-ai-openai ✖️ DryDock(Keel with vert.x)">
       <option name="closed" value="true" />
@@ -143,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713340767305</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="azure-ai-openai ✖️ DryDock(Keel with vert.x)">
+      <option name="closed" value="true" />
+      <created>1713342608475</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713342608475</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

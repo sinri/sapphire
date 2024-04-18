@@ -1,6 +1,7 @@
 package io.github.sinri.sapphire.test.lab;
 
 import com.azure.ai.openai.models.*;
+import com.azure.core.util.BinaryData;
 import io.github.sinri.drydock.naval.raider.Privateer;
 import io.github.sinri.keel.tesuto.TestUnit;
 import io.github.sinri.sapphire.azure.chat.ChatCompletionsKit;
@@ -15,6 +16,7 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.List;
 
 public class LabAlpha extends Privateer {
@@ -97,12 +99,12 @@ public class LabAlpha extends Privateer {
                 });
     }
 
-    @TestUnit
+    @TestUnit(skip = false)
     public Future<Void> test3() {
         ChatCompletionsKit chatCompletionsKit = new ChatCompletionsKit("Seventh-Tower-GPT4");
 
         List<ChatRequestMessage> chatMessages = Arrays.asList(
-                new ChatRequestSystemMessage("You are a helpful assistant."),
+                new ChatRequestSystemMessage("You are a helpful assistant. Now is " + new Date()),
                 new ChatRequestUserMessage("Will it rain in Berlin tomorrow?")
         );
 
@@ -112,6 +114,8 @@ public class LabAlpha extends Privateer {
 
         ChatCompletionsOptions chatCompletionsOptions = new ChatCompletionsOptions(chatMessages);
         chatCompletionsOptions.setTools(List.of(toolDefinition));
+
+        getLogger().info("Req: " + BinaryData.fromObject(chatCompletionsOptions));
 
         return chatCompletionsKit.getChatCompletions(chatCompletionsOptions)
                 .compose(chatCompletions -> {
@@ -146,6 +150,7 @@ public class LabAlpha extends Privateer {
                                         );
                                         ChatCompletionsOptions followUpChatCompletionsOptions = new ChatCompletionsOptions(followUpMessages);
 
+                                        getLogger().info("Req: " + BinaryData.fromObject(followUpChatCompletionsOptions));
                                         return chatCompletionsKit.getChatCompletions(followUpChatCompletionsOptions)
                                                 .compose(x -> {
                                                     ChatResponseMessage message = x.getChoices().get(0).getMessage();
